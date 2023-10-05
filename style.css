@@ -1,0 +1,57 @@
+.container {
+    max-width: 600px;
+    height: 300px;
+    margin: 0 auto;
+    padding: 30px;
+    text-align: center;
+    background-color: #81ecec;
+    border: 1px solid #55efc4;
+    border-radius: 5px;
+    margin-top: 200px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+
+  body {
+    background-color: #ffeaa7;
+  }
+
+  .input-container {
+    margin-bottom: 20px;
+  }
+
+  input[type="number"] {
+    width: 200px;
+    padding: 5px;
+  }
+
+  button {
+    padding: 10px 20px;
+    background-color: #6c5ce7;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 8px;
+    border: 1px solid #c2c6c4;
+  }
+
+  #resultContainer {
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 20px;
+  }
+
+
+  @media (max-width: 600px) {
+    .container {
+      max-width: 100%;
+      margin-top: 100px;
+    }
+
+    input[type="number"] {
+      width: 100%;
+    }
+
+    button {
+      width: 100%;
+    }
+  }
